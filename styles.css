@@ -1,0 +1,210 @@
+/*Global*/
+body{
+  line-height: 1.6;
+  font-family: Muli,sans-serif;
+  color: #685a5c;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*Nav*/
+nav{
+  background-color:#f9b7a9;
+}
+
+/*Header*/
+
+.top-button-container{
+  text-align: center;
+}
+.btn{
+  background:#e8636f;
+  color: #fff;
+
+}
+header{
+
+  padding: 80px;
+  background-image: url("https://cdn.shopify.com/s/files/1/1358/2883/files/native-poppy-flower-wall-header-image-image-001_1944x.jpg?v=1614771828");
+  background-position: 25% 75%;
+}
+.pink-container{
+  background: #f9b7a9;
+  color: #ffffff;
+  text-align: center;
+  margin: 20px 35px;
+  font-family: Barlow Condensed,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: .04em;
+}
+
+/*Intro*/
+.image-container{
+  text-align: center;
+  margin-top: 80px;
+}
+.image-container img{
+  width: 64px;
+  height: auto;
+}
+.intro-paragraph {
+  margin: 25px 20% 100px 20%;
+  text-align:center;
+}
+.intro-paragraph p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/*How It Works*/
+.button-container{
+  text-align: center;
+  position: relative;
+  margin: 5% 8%;
+}
+.sparkle-container{ /*Sparkles*/
+  position: absolute;
+  z-index: -1;
+  left: 10%;
+}
+.card{
+  margin-top: 20px;
+  text-align: center;
+  border: none;
+  padding: 80px;
+}
+.card-body h5{
+  font-weight: bold;
+}
+.card img{
+
+  text-align: center;
+}
+.HIW{
+  padding: 18%;
+
+  background-image: url(https://cdn.shopify.com/s/files/1/1358/2883/files/native-poppy-how-it-works-header-image-002_1944x.jpg?v=1614771843);
+  background-position: center;
+}
+
+/*What You Get*/
+.perks-list{
+  list-style: none;
+}
+.perks-list li{
+  padding: 5px;
+  font-size: 24px;
+  color: #f9b7a9;
+  text-align:center;
+}
+.what-you-get{
+  padding-top: 100px;
+}
+.what-you-get h4{
+  padding-bottom: 15px;
+  text-align: center;
+
+}
+.WYG{
+  margin: auto;
+  padding: 150px;
+
+  background-image:url(https://cdn.shopify.com/s/files/1/1358/2883/files/native-poppy-what-you-get-header-image-004_1944x.jpg?v=1614771849);
+  background-position: center;
+}
+
+/*Merchandise*/
+.merch h3{
+
+  padding-top: 45px;
+  text-align: center;
+}
+/*Testimonials*/
+.carousel-item img{
+
+}
+
+/*Sign Up*/
+.FAQ{
+  background-color: #B6E2A1;
+  margin: 5% 20%;
+  padding: 10%;
+  border-radius: 30px;
+}
+.question{
+  color:#f9b7a9;
+}
+
+/*Footer*/
+.credits{
+  text-align: center;
+  color:#f9b7a9;
+  padding: 25px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+form button{
+  margin-top: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+form input{
+  margin: 10px;
+}
+#email-body{
+  margin 10px;
+}
+.mail-list{
+  text-align: center;
+}
+.socials{
+  text-align: center;
+  font-size: 48px;
+  padding: 25px;
+
+}
+.socials a{
+  padding: 30px;
+  color:#f9b7a9;
+}
+/*Media Queries*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .flower-cards{
+    .container {
+    max-width:100%;
+    width: 100%;
+}
+.col-lg-6{
+    width:100%;
+    float:left;
+    margin:0;
+}
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .flower-cards{
+    .container {
+    max-width:100%;
+    width: 100%;
+}
+.col-md-3{
+    width:100%;
+    float:left;
+    margin:0;
+}
+  }
+}
