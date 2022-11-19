@@ -11,6 +11,9 @@ body{
 nav{
   background-color:#f9b7a9;
 }
+.navbar-brand{
+  font-family: 'Indie Flower', cursive;
+}
 
 /*Header*/
 
@@ -33,7 +36,7 @@ header{
   color: #ffffff;
   text-align: center;
   margin: 20px 35px;
-  font-family: Barlow Condensed,sans-serif;
+  font-family: 'Indie Flower', cursive;
   font-weight: 500;
   font-style: normal;
   line-height: 1.4;
