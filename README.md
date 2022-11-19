@@ -1,0 +1,1 @@
+Landing page for a flower delivery service based on assets from nativepoppy.com.  Getting the Bootstrap to work was a challenge and, as the carousel doesn't work, the project is still technically a work-in-progress.
